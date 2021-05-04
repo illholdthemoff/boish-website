@@ -13,11 +13,11 @@ html, body {
     text-align: center;
     background: rgb(0, 40, 85);
     color: white;
-    padding: 5vh;
+    padding: 3vh;
 }
 
 #header a {
-    padding: 20px;
+    padding: 30px;
     text-decoration: none;
     color: white;
     top: 30px;
@@ -67,16 +67,17 @@ html, body {
 #sidebar {
     font-size: 1.5em;
     font-weight: 400px;
-    flex: 40%;
+    flex: 35%;
     background-color: rgb(151, 157, 172);
     padding: 40px;
     text-align: center;
+    border-right: 5px solid black;
 }
 
 #content {
     font-size: 2em;
     font-weight: 400px;
-    flex: 60%;
+    flex: 65%;
     background-color: rgb(230, 230, 230);
     padding: 30px;
     text-align: center;
@@ -87,13 +88,13 @@ img {
 }
 
 #sidebar img {
-    height: 90%;
-    width: 90%;
+    height: 70%;
+    width: 70%;
 }
 
 #content img {
-    height: 90%;
-    width: 90%;
+    height: 70%;
+    width: 70%;
 }
 
 #sidebarinfo {
