@@ -8,10 +8,10 @@ html, body {
 }
 
 #header {
+    background-color: rgba(56,88,125,255);
     font-size: 2em;
     font-weight: 700px;
     text-align: center;
-    background: rgb(0, 40, 85);
     color: white;
     padding: 3vh;
 }
@@ -48,11 +48,11 @@ html, body {
 }
 
 #navbar a:hover {
-    background-color: crimson;
+    background-color: goldenrod;
 }
 
 #navbar a.test {
-    background-color: crimson;
+    background-color: goldenrod;
 }
 
 /* #navbar a.active {
