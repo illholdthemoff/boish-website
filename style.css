@@ -1,0 +1,112 @@
+html, body {
+    font-family: Signika, Roboto, sans-serif;
+    background-color: rgb(241, 233, 219);
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+#header {
+    font-size: 2em;
+    font-weight: 700px;
+    text-align: center;
+    background: rgb(0, 40, 85);
+    color: white;
+    padding: 5vh;
+}
+
+#header a {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    top: 30px;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: rgb(2, 62, 125);
+    border: 3px solid black;
+    position: sticky;
+    top: 0;
+}
+
+#navbar a.right {
+    float: right;
+    border-left: 1px solid black;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    background-color: rgb(2, 62, 125);
+    color: white;
+    text-align: center;
+    padding: 20px 40px;
+    text-decoration: none;
+    border-right: 1px solid black;
+}
+
+#navbar a:hover {
+    background-color: crimson;
+}
+
+#navbar a.test {
+    background-color: crimson;
+}
+
+/* #navbar a.active {
+    background-color: crimson;
+} Can't get working without active webpage link womp womp */
+
+#main {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#sidebar {
+    font-size: 1.5em;
+    font-weight: 400px;
+    flex: 40%;
+    background-color: rgb(151, 157, 172);
+    padding: 40px;
+    text-align: center;
+}
+
+#content {
+    font-size: 2em;
+    font-weight: 400px;
+    flex: 60%;
+    background-color: rgb(230, 230, 230);
+    padding: 30px;
+    text-align: center;
+}
+
+img {
+    border: 5px solid black;
+}
+
+#sidebar img {
+    height: 90%;
+    width: 90%;
+}
+
+#content img {
+    height: 90%;
+    width: 90%;
+}
+
+#sidebarinfo {
+    padding: 50px;
+}
+
+#sidebarinfo a {
+    text-decoration: none;
+    font-size: x-large;
+    color: black;
+}
+
+input {
+    background-color: white;
+    border: 2px solid rgb(151, 157, 172);
+}
