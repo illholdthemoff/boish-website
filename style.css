@@ -8,12 +8,12 @@ html, body {
 }
 
 #header {
-    background-color: rgba(56,88,125,255);
+    background-image: linear-gradient(to bottom right, rgba(19,58,101,255), rgba(64,97,130,255));
     font-size: 2em;
     font-weight: 700px;
     text-align: center;
     color: white;
-    padding: 3vh;
+    padding: 2vh;
 }
 
 #header a {
@@ -25,34 +25,34 @@ html, body {
 
 #navbar {
     overflow: hidden;
-    background-color: rgb(2, 62, 125);
-    border: 3px solid black;
+    background-color: rgba(64,97,130,255);
+    border: 3px solid rgba(235,160,89,255);
     position: sticky;
     top: 0;
 }
 
 #navbar a.right {
     float: right;
-    border-left: 1px solid black;
+    border-left: 1px solid rgba(235,160,89,255);
 }
 
 #navbar a {
     float: left;
     display: block;
-    background-color: rgb(2, 62, 125);
+    background-color: rgba(64,97,130,255);
     color: white;
     text-align: center;
-    padding: 20px 40px;
+    padding: 15px 40px;
     text-decoration: none;
-    border-right: 1px solid black;
+    border-right: 1px solid rgba(235,160,89,255);
 }
 
 #navbar a:hover {
-    background-color: goldenrod;
+    background-color: rgba(235,160,89,255);
 }
 
 #navbar a.test {
-    background-color: goldenrod;
+    background-color: rgba(235,160,89,255);
 }
 
 /* #navbar a.active {
@@ -68,17 +68,17 @@ html, body {
     font-size: 1.5em;
     font-weight: 400px;
     flex: 35%;
-    background-color: rgb(151, 157, 172);
+    background-image: linear-gradient(to right, rgb(132,156,180), rgba(244, 245, 245, 1));
     padding: 40px;
     text-align: center;
-    border-right: 5px solid black;
+    border-right: 2px solid black;
 }
 
 #content {
     font-size: 2em;
     font-weight: 400px;
     flex: 65%;
-    background-color: rgb(230, 230, 230);
+    background-color: rgba(244, 245, 245, 1);
     padding: 30px;
     text-align: center;
 }
