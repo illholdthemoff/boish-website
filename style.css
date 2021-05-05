@@ -1,0 +1,113 @@
+html, body {
+    font-family: Signika, Roboto, sans-serif;
+    background-color: rgb(241, 233, 219);
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+#header {
+    background-image: linear-gradient(to bottom right, rgba(19,58,101,255), rgba(64,97,130,255));
+    font-size: 2em;
+    font-weight: 700px;
+    text-align: center;
+    color: white;
+    padding: 2vh;
+}
+
+#header a {
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+    top: 30px;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: rgba(64,97,130,255);
+    border: 3px solid rgba(235,160,89,255);
+    position: sticky;
+    top: 0;
+}
+
+#navbar a.right {
+    float: right;
+    border-left: 1px solid rgba(235,160,89,255);
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    background-color: rgba(64,97,130,255);
+    color: white;
+    text-align: center;
+    padding: 15px 40px;
+    text-decoration: none;
+    border-right: 1px solid rgba(235,160,89,255);
+}
+
+#navbar a:hover {
+    background-color: rgba(235,160,89,255);
+}
+
+#navbar a.test {
+    background-color: rgba(235,160,89,255);
+}
+
+/* #navbar a.active {
+    background-color: crimson;
+} Can't get working without active webpage link womp womp */
+
+#main {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#sidebar {
+    font-size: 1.5em;
+    font-weight: 400px;
+    flex: 35%;
+    background-image: linear-gradient(to right, rgb(132,156,180), rgba(244, 245, 245, 1));
+    padding: 40px;
+    text-align: center;
+    border-right: 2px solid black;
+}
+
+#content {
+    font-size: 2em;
+    font-weight: 400px;
+    flex: 65%;
+    background-color: rgba(244, 245, 245, 1);
+    padding: 30px;
+    text-align: center;
+}
+
+img {
+    border: 5px solid black;
+}
+
+#sidebar img {
+    height: 70%;
+    width: 70%;
+}
+
+#content img {
+    height: 70%;
+    width: 70%;
+}
+
+#sidebarinfo {
+    padding: 50px;
+}
+
+#sidebarinfo a {
+    text-decoration: none;
+    font-size: x-large;
+    color: black;
+}
+
+input {
+    background-color: white;
+    border: 2px solid rgb(151, 157, 172);
+}
